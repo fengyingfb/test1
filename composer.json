@@ -1,0 +1,21 @@
+{
+    "name": "zhangjian/test1",
+    "description": "This a demo for build composer packagist",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangjian",
+            "email": "446180102@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ford\\Escape\\": "src/Ford/Escape"
+        }
+    }
+}
